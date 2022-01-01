@@ -1,0 +1,198 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: #faf6f6;
+}
+    /* Different */
+    .date-time {
+        color: rgb(67, 67, 70);
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 16px;
+        margin: 10px 0 15px 0;
+    }
+    .paragraph {
+        color: rgb(0, 8, 0);
+        font-style: normal;
+        font-weight: bold;
+        font-size: 26px;
+        line-height: 28px;
+        margin-bottom: 10px;
+    }
+    .strip {
+        font-weight: bold; 
+        color: #000; 
+    }
+    .duties-text {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 24px;
+        color: #595959;
+    }
+    .duties-points {
+        color: rgb(7, 107, 5);
+    }
+/* Main container */
+.Main-container {
+   display: flex; 
+   flex-direction: row-reverse;
+   width: 1200px;
+   background-color: #fff;
+   margin: 40px auto;
+   box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+}
+    /* Main inform */
+    .Main-inform-section {
+        display: flex; 
+        flex-direction: column;
+        padding: 100px 90px; 
+    }
+        .About-me-section {
+            padding-right: 50px;
+            margin-bottom: 40px;
+        }
+            .profession {
+                font-style: normal;
+                font-weight: bold;
+                font-size: 20px;
+                line-height: 22px;
+                color: #000;
+                margin-bottom: 20px;
+            }
+            .me {
+                font-style: normal;
+                font-weight: bold;
+                font-size: 45px;
+                line-height: 55px;
+                color: #000;
+                margin-bottom: 25px;
+            }
+            .about-me {
+                font-style: normal;
+                font-weight: bold;
+                font-size: 14px;
+                line-height: 24px;
+                color: rgb(45, 45, 54);
+            }
+        .My-projects-section {
+            margin-bottom: 50px;
+        }
+            .my-projects-list {
+                padding: 0 0 0 18px;
+            }
+            .list-numbers {
+                font-weight: bold;
+            }
+            .list-text {
+                font-style: normal;
+                font-weight: normal;
+                font-size: 16px;
+                line-height: 24px;
+                color: #595959; 
+                margin-left: 5px; 
+            }
+            .my-projects-link {
+                font-style: normal;
+                font-weight: normal;
+                font-size: 16px;
+                line-height: 24px;
+                color: #595959; 
+            }
+            .brackets {
+                font-weight: bold;
+                color: #000;
+            }
+        .My-work-experience {
+            margin-top: 50px;
+            padding-right: 50px;
+        }
+            .second-half {
+                color: rgb(196, 177, 6);
+            }
+        .work-position {
+            font-style: normal;
+            font-weight: bold;
+            font-size: 16px;
+            line-height: 20px;
+            margin-bottom: 10px;
+        }
+        .My-Education {
+            margin: 50px 0 45px 0;
+        }
+            .name-VUZ {
+                font-style: normal;
+                font-weight: bold;
+                font-size: 18px;
+                line-height: 22px;
+                color: rgb(187, 171, 28);
+
+            }
+            .VUZ-prof {
+                font-style: normal;
+                font-weight: bold;
+                font-size: 16px;
+                line-height: 18px;
+                padding: 10px 0 10px 0;
+            }
+        .my-work-duties {
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 24px;
+            padding-left: 18px;
+        }
+    /* Sidebar */
+    .My-Sidebar {
+        background-color: rgb(4, 49, 3);
+        width: 370px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 24px;
+        color: #fff;
+        margin-top: 40px;
+    }
+        .Contacts-my {
+            font-style: normal;
+            font-weight: bold;
+            font-size: 26px;
+            line-height: 28px;
+            color: rgb(163, 84, 9);
+        }
+            .contact-link{
+                font-style: normal;
+                font-weight: bold;
+                font-size: 14px;
+                line-height: 24px;
+                color: #fff;
+                margin-right: 5px;
+            }
+            .link-to {
+                color: #b4b7bd;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 14px;
+                line-height: 24px;
+            }
+        .skills {
+            margin: 50px 0 0 40px;
+        }
+        .paragraph-2 {
+            font-style: normal;
+            font-weight: bold;
+            font-size: 26px;
+            line-height: 28px;
+            color: rgb(187, 171, 28);
+        }
+        .points-skills {
+            padding-left: 17px;
+        }
+        .points-name {
+            color: rgb(209, 238, 44);
+        }
+        .points-name-text {
+            color: rgb(7, 165, 144);
+            font-weight: 600;
+
+        }
